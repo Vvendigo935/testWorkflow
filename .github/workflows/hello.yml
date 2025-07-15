@@ -14,4 +14,12 @@ jobs:
         steps:
             - name: Dit bonjour
               run: echo "Hello World !!"
+
+            - name: Dit bye
+              run: echo "SALUT MEC"
               
+    second-job:
+        runs-on: ubuntu-latest
+        steps:
+                - name: etape
+                run: echo "ICH BIN EIN ZECOND JOB"
